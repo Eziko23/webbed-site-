@@ -11,5 +11,6 @@ export const config = {
 
 export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("**/*.png");
+  eleventyConfig.addPassthroughCopy("**/*.css");
 };
 
