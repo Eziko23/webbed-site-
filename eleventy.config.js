@@ -3,13 +3,14 @@ export const config = {
     // These are both relative to your input directory!
     includes: "_includes",
     layouts: "_layouts",
-    output: "funkylevi.nekoweb.org",
+    output: "_site",
 
   }
+
 };
 
 export default function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("funkylevi/bg.png");
-    eleventyConfig.addPassthroughCopy("funkylevi/favicon.png");
-    eleventyConfig.addPassthroughCopy("funkylevi/styles.css");
+    eleventyConfig.addPassthroughCopy("/bg.png");
+    eleventyConfig.addPassthroughCopy("/favicon.png");
+    eleventyConfig.addPassthroughCopy("/styles.css");
 };
