@@ -10,7 +10,6 @@ export const config = {
 };
 
 export default function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("/bg.png");
-    eleventyConfig.addPassthroughCopy("/favicon.png");
-    eleventyConfig.addPassthroughCopy("/styles.css");
+    eleventyConfig.addPassthroughCopy("assets");
 };
+
