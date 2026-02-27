@@ -1,0 +1,35 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+/* actual css */
+.main {
+    /* Background/Border */
+    background-color: rgba(30, 30, 46, 0.8);
+    background-size: auto;
+    border-style: solid;
+    border-color: #cba6f7;
+    border-width: 1px;
+
+    padding: 10px 20px 10px;
+    margin: auto;
+    width: 60%;
+    height: auto;
+}
+
+body {
+    background-image: url("/bg.png");
+}
+
+div {
+    font-family: "JetBrains Mono", monospace;
+    color: white;
+    text-shadow: 0px 0px 6px #cdd6f4;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
