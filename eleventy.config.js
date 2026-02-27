@@ -10,6 +10,6 @@ export const config = {
 };
 
 export default function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("assets");
+	eleventyConfig.addPassthroughCopy("**/*.png");
 };
 
